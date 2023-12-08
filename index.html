@@ -1,59 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slate</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/fonts/graphik/stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body>
-    <section class="header">
-        <div class="container">
-            <img src="" alt="">
-            <h1>Hello</h1>
-            <button></button>
+<body page__body>
+
+    <!-- HEADER -->
+    <header class="header ">
+        <div class="container header__container">
+            <a>
+                <img src="assets/img/Logo.svg" alt="logo">
+            </a>
+
+            <nav class="nav">
+                <ul class="list-reset nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Возможности</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Расширения</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn-reset btn btn-header">Войти</button>
         </div>
-    </section>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <!-- SECTION HERO -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Работайте на скорости мысли</h1>
+                <p class="section-text hero__desc">Большинство календарей предназначены для команд. Slate предназначен
+                    для
+                    фрилансеров, которым нужен
+                    удобный способ планировать свой график.</p>
 
-
-    <section class="main">
-        <div class="container">
-            <div class="wrap">
-                <h1 class="title"></h1>
-                <div class="subtitle"></div>
-
-                <img src="" alt="">
-                <button></button>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- FOOTER -->
-    <section class="footer">
-        <div class="container">
-            <div class="wrap">
-                <div class="logo">logo</div>
-                <div class="link">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="hero__wrapper">
+                    <a href="#" class="btn btn-reset btn-purple">Попробовать бесплатно</a>
+                    <a href="#" class="btn btn-reset btn-right">Узнать больше</a>
                 </div>
             </div>
-        </div>
-    </section>
 
-</body>
+            <div class="hero__bg">
+                <img src="/assets/img/hero-bg.png" srcset="/assets/img/hero-bg_2x.png" loading="lazy" alt="background">
+            </div>
+        </section>
+        <!-- OPPORTUNITY -->
+        <section class="offset-margin opportunities">
+            <div class="container">
+                <h2 class="section-title opportunities__title">Возможности</h2>
+                <p class="section-text opportunities__desc">
+                    Большинство календарей предназначены для команд. Slate предназначен для фрилансеров, которым нужен
+                    удобный способ планировать свой график.
+                </p>
 
-</html>
+                <div class="opportunities__inner">
+                    <div class="opportunities__photo">
+                        <img class="opportunities__image" src="/assets/img/opportunities-img-1.png" loading="lazy"
+                            alt="control panel">
+                        <img class="opportunities__img" src="/assets/img/opportunities-img-2.png" loading="lazy"
+                            alt="point">
+                    </div>
+
+                    <div class="opportunities__content">
+                        <ul class="list-reset opportunities-list">
+                            <li class="opportunities-list__item">
+
+                                <div class="opportunities-list__item-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24"
+                                        fill="none">
+                                        <path
+                                            d="M7.64636 13.7764L11.4197 10.003L3.16636 1.76302C2.52636 1.12302 1.41969 1.29636 1.01969 2.12302C0.073024 4.10969 0.419691 6.54969 2.05969 8.20302L7.64636 13.7764ZM16.6864 11.363C18.7264 12.3097 21.593 11.643 23.713 9.52302C26.2597 6.97635 26.753 3.32302 24.793 1.36302C22.8464 -0.583644 19.193 -0.103644 16.633 2.44302C14.513 4.56302 13.8464 7.42969 14.793 9.46969L2.71302 21.5497C2.46372 21.799 2.32366 22.1371 2.32366 22.4897C2.32366 22.8423 2.46372 23.1804 2.71302 23.4297C2.96233 23.679 3.30046 23.819 3.65302 23.819C4.00559 23.819 4.34372 23.679 4.59302 23.4297L12.8464 15.203L21.0864 23.443C21.2098 23.5665 21.3563 23.6644 21.5176 23.7312C21.6789 23.798 21.8518 23.8324 22.0264 23.8324C22.2009 23.8324 22.3738 23.798 22.5351 23.7312C22.6964 23.6644 22.8429 23.5665 22.9664 23.443C23.0898 23.3196 23.1877 23.173 23.2545 23.0117C23.3213 22.8505 23.3557 22.6776 23.3557 22.503C23.3557 22.3284 23.3213 22.1556 23.2545 21.9943C23.1877 21.833 23.0898 21.6865 22.9664 21.563L14.7264 13.323L16.6864 11.363Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+                                    <h3 class="opportunities-list__item-title">Полезные подсказки</h3>
+                                </div>
+                                <p class="opportunities-list__item-desc">
+                                    Когда вы&nbsp;добавите
+                                    задачу в&nbsp;свой календарь,
+                                    Slate предложит полезную
+                                    информацию.</p>
+
+                            </li>
+                            <li class="opportunities-list__item">
+
+                                <div class="opportunities-list__item-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31"
+                                        fill="none">
+                                        <path
+                                            d="M12.5495 14.2274C14.0285 16.6874 13.811 19.5824 12.042 20.7524C10.273 21.8924 7.634 20.8274 6.1405 18.3674C4.6615 15.9074 4.8935 12.9824 6.6625 11.8424C8.4315 10.7024 11.0705 11.7674 12.5495 14.2274ZM15 24.4574C17.9 24.4574 18.625 23.3324 18.625 23.3324C18.625 23.3324 17.9 26.3324 15 26.3324C12.1 26.3324 11.375 23.3774 11.375 23.3324C11.375 23.3324 12.1 24.4574 15 24.4574ZM23.3375 11.8424C25.1065 12.9824 25.3385 15.9074 23.8595 18.3674C22.366 20.8274 19.727 21.8924 17.958 20.7524C16.189 19.5824 15.9715 16.6874 17.4505 14.2274C18.9295 11.7674 21.5685 10.7024 23.3375 11.8424ZM15 27.8324C18.625 27.8324 26.6 20.1224 26.6 14.3324C26.6 8.5424 21.3945 3.8324 15 3.8324C8.6055 3.8324 3.4 8.5424 3.4 14.3324C3.4 20.1224 11.375 27.8324 15 27.8324ZM15 0.832397C22.975 0.832397 29.5 6.8924 29.5 14.3324C29.5 20.4524 21.264 30.8324 15 30.8324C8.736 30.8324 0.5 20.4524 0.5 14.3324C0.5 6.8924 7.025 0.832397 15 0.832397Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+                                    <h3 class="opportunities-list__item-title">Умный интерфейс</h3>
+                                </div>
+                                <p class="opportunities-list__item-desc opportunities-list__item-desc--width-2">
+                                    Интерфейс приложения
+                                    автоматически подстраивается
+                                    под вашу текущую задачу.</p>
+                            </li>
+                            <li class="opportunities-list__item">
+
+                                <div class="opportunities-list__item-content">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="20" viewBox="0 0 42 20"
+                                        fill="none">
+                                        <path
+                                            d="M32.275 0.83256C29.815 0.83256 27.4917 1.8214 25.8346 3.53423L13.825 14.5528C12.7317 15.6829 11.2796 16.3009 9.725 16.3009C6.53042 16.3009 3.91667 13.6346 3.91667 10.3325C3.91667 7.0305 6.53042 4.36415 9.725 4.36415C11.2796 4.36415 12.7317 4.98218 13.8933 6.18292L15.8238 7.94872L18.4375 5.58255L16.2508 3.62252C15.3953 2.7349 14.3782 2.03133 13.2581 1.55246C12.1379 1.07358 10.9371 0.828905 9.725 0.83256C4.63417 0.83256 0.5 5.10579 0.5 10.3325C0.5 15.5593 4.63417 19.8325 9.725 19.8325C12.185 19.8325 14.5083 18.8437 16.1654 17.1309L28.175 6.11229C29.2683 4.98218 30.7204 4.36415 32.275 4.36415C35.4696 4.36415 38.0833 7.0305 38.0833 10.3325C38.0833 13.6346 35.4696 16.3009 32.275 16.3009C30.7375 16.3009 29.2683 15.6829 28.1067 14.4822L26.125 12.6987L23.5625 15.0649L25.7492 17.0426C26.607 17.9257 27.625 18.6252 28.7448 19.1009C29.8646 19.5767 31.0643 19.8193 32.275 19.8149C37.3658 19.8149 41.5 15.5593 41.5 10.3325C41.5 5.03515 37.3658 0.83256 32.275 0.83256Z"
+                                            fill="#02E4C0" />
+                                    </svg>
+                                    <h3 class="opportunities-list__item-title">Синхронизация</h3>
+                                </div>
+                                <p class="opportunities-list__item-desc opportunities-list__item-desc--width-3">
+                                    Slate синхронизируется
+                                    со&nbsp;всеми вашими
+                                    календарями.</p>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- EXTENSION -->
+        <section class="extension">
+            <div class="container">
+                <h2 class="section-title extension__title">Расширения</h2>
+                <p class="section-text extension__text">Slate поддерживает добавление расширений для того, чтобы ваша
+                    работа была еще
+                    удобнее.</p>
 
 
-
-
-
-
+                <ul class="list-reset extension__list">
+                    <li class="extension__item">
+                        <div class="extension-card">
+                            <div class="extension-card__inner">
+                                <h3 class="extension-card__title">Работа под защитой</h3>
+                                <p class="extension-card__desc">Вы когда-нибудь задумывались,
+                                    хорошо ли защищён ваш рабочий аккаунт?
+                                    Slate Safe поможет вам с этим.</p>
+                                <button class="btn-reset btn-download btn-purple">Скачать</button>
+                                <img class="extension__image" loading="lazy" src="/assets/img/extension-card-1.png"
+                                    alt="Transaction">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="extension__item">
+                        <div class="extension-card">
+                            <div class="extension-card__inner">
+                                <h3 class="extension-card__title extension-card__title--width">Slate
+                                    не&nbsp;конкурирует,
+                                    а&nbsp;дружит своими "коллегами"</h3>
+                                <p class="extension-card__desc extension-card__desc--width">Свяжите задачи в Slate
+                                    Connect с задачами
+                                    в других системах планирования проектов.</p>
+                                <button class="btn-reset btn-download btn-purple btn--margin">Попробовать
+                                    бесплатно</button>
+                                <img class="extension__image-2" loading="lazy" src="/assets/img/extenction.jpeg"
+                                    alt="Transaction">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Gallery -->
+        <!-- Partners -->
+        <!-- Reviews -->
+    </main>
 
 
 </body>
