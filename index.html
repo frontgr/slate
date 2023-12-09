@@ -1,64 +1,232 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slate</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/fonts/graphik/stylesheet.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
-<body>
-    <section class="header">
-        <div class="container">
-            <img src="" alt="">
-            <h1>Hello</h1>
-            <button></button>
+<body page__body>
 
-            <div class="support">
-                <img src="" alt="">
-                <button></button>
-            </div>
+    <!-- HEADER -->
+    <header class="header ">
+        <div class="container header__container">
+            <a>
+                <img src="assets/img/Logo.svg" alt="logo">
+            </a>
+
+            <nav class="nav">
+                <ul class="list-reset nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Возможности</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Расширения</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Отзывы</a></li>
+                </ul>
+            </nav>
+
+            <button class="btn-reset btn btn-header">Войти</button>
+
         </div>
-    </section>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+        <!-- SECTION HERO -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Работайте на скорости мысли</h1>
+                <p class="section-text hero__desc">Большинство календарей предназначены для команд. Slate предназначен
+                    для
+                    фрилансеров, которым нужен
+                    удобный способ планировать свой график.</p>
 
-
-    <section class="main">
-        <div class="container">
-            <div class="wrap">
-                <h1 class="title"></h1>
-                <div class="subtitle"></div>
-
-                <img src="" alt="">
-                <button></button>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!-- FOOTER -->
-    <section class="section footer">
-        <div class="container">
-            <div class="wrap">
-                <div class="logo">logo</div>
-                <div class="link">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="hero__wrapper">
+                    <a href="#" class="btn btn-reset btn-purple">Попробовать бесплатно</a>
+                    <a href="#" class="btn btn-reset btn-right">Узнать больше</a>
                 </div>
             </div>
         </div>
     </section>
 
-</body>
 
-</html>
+        <!-- EXTENSION -->
+        <section class="extension">
+            <div class="container">
+                <h2 class="section-title extension__title">Расширения</h2>
+                <p class="section-text extension__text">Slate поддерживает добавление расширений для того, чтобы ваша
+                    работа была еще
+                    удобнее.</p>
 
 
+                <ul class="list-reset extension__list">
+                    <li class="extension__item">
+                        <div class="extension-card">
+                            <div class="extension-card__inner">
+                                <h3 class="extension-card__title">Работа под защитой</h3>
+                                <p class="extension-card__desc">Вы когда-нибудь задумывались,
+                                    хорошо ли защищён ваш рабочий аккаунт?
+                                    Slate Safe поможет вам с этим.</p>
+                                <button class="btn-reset btn-download btn-purple">Скачать</button>
+                                <img class="extension__image" loading="lazy" src="/assets/img/extension-card-1.png"
+                                    alt="Transaction">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="extension__item">
+                        <div class="extension-card">
+                            <div class="extension-card__inner">
+                                <h3 class="extension-card__title extension-card__title--width">Slate
+                                    не&nbsp;конкурирует,
+                                    а&nbsp;дружит своими "коллегами"</h3>
+                                <p class="extension-card__desc extension-card__desc--width">Свяжите задачи в Slate
+                                    Connect с задачами
+                                    в других системах планирования проектов.</p>
+                                <button class="btn-reset btn-download btn-purple btn--margin">Попробовать
+                                    бесплатно</button>
+                                <img class="extension__image-2" loading="lazy" src="/assets/img/extenction.jpeg"
+                                    alt="Transaction">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="container">
+                <h1 class="gallery__title">Галерея</h1>
+                <h3>Мы уделяем особое внимание эргономике <br>
+                    и заботимся о том, что бы вам было удобно.</h3>
+                <div class="gallery__img">
+                    <img src="https://fakeimg.pl/200x300" alt="">
+                    <img src="https://fakeimg.pl/200x300" alt="">
+                    <img src="https://fakeimg.pl/200x300" alt="">
+                    <img src="https://fakeimg.pl/200x300" alt="">
+                    <img src="https://fakeimg.pl/300x250" alt="">
+                    <img src="https://fakeimg.pl/300x250" alt="">
+                    <img src="https://fakeimg.pl/300x250" alt="">
+                </div>
 
+                <button class="btn btn-reset">
+                    Смотреть еще
+                </button>
+            </div>
+        </section>
 
+        <!-- Partners -->
+        <section class="partners">
+            <div class="container">
+                <h1>Партнеры</h1>
+                <h3>Коллаборация с партнерами дает дополнительные <br>
+                    возможности в использовании Slate.</h3>
+                <div class="partners__img">
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                    <div><img src="https://fakeimg.pl/50x50" alt=""></div>
+                </div>
 
+                <button class="btn btn-reset">
+                    Смотреть еще
+                </button>
+            </div>
+        </section>
+        
+        <!-- Reviews -->
+        <section class="reviews">
+            <div class="container">
+                <h1 class="reviews__title" >Отзывы</h1>
+                <div class="reviews__box">
+                    <div class="reviews__box--item">
+                        <div class="reviews__img">
+                            <div>
+                                <img src="https://fakeimg.pl/30x30" alt="">
+                            </div>
+                            <h4 ">Отзыв 1</h4>
+                        </div>
+                        <p class="reviews__subtitle">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Eius tempore minima optio dignissimos <br>fugit perspiciatis!</p>
+                    </div>
+                    <div class="reviews__box--item">
+                        <div class="reviews__img">
+                            <div>
+                                <img src="https://fakeimg.pl/30x30" alt="">
+                            </div>
+                            <h4 ">Отзыв 1</h4>
+                        </div>
+                        <p class="reviews__subtitle">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Eius tempore minima optio dignissimos <br>fugit perspiciatis!</p>
+                    </div>
+                    <div class="reviews__box--item">
+                        <div class="reviews__img">
+                            <div>
+                                <img src="https://fakeimg.pl/30x30" alt="">
+                            </div>
+                            <h4 ">Отзыв 1</h4>
+                        </div>
+                        <p class="reviews__subtitle">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Eius tempore minima optio dignissimos <br>fugit perspiciatis!</p>
+                    </div>
+                    <div class="reviews__box--item">
+                        <div class="reviews__img">
+                            <div>
+                                <img src="https://fakeimg.pl/30x30" alt="">
+                            </div>
+                            <h4 ">Отзыв 1</h4>
+                        </div>
+                        <p class="reviews__subtitle">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit. <br>Eius tempore minima optio dignissimos <br>fugit perspiciatis!</p>
+                    </div>
+                
+                </div>
+                
+            </div>
+        </section>
 
+        <footer class="footer">
+            <div class="footer__links">
+                
+                <div class="footer__links--item">
+                    <h5>Основное</h5>
+                    <p>Возможности</p>
+                    <p>Расширения</p>
+                    <p>Галерея</p>
+                    <p>Отзывы</p>
+                </div>
+
+                <div class="footer__links--item">
+                    <h5>Ресуры</h5>
+                    <p>Приложение</p>
+                    <p>Обновления</p>
+                    <p>Скрипты</p>
+                    <p>Документация</p>
+                </div>
+                <div class="footer__links--item">
+                    <h5>Мы</h5>
+                    <p>О приложение</p>
+                    <p>Контакты</p>
+                    <p>Связаться</p>
+                </div>
+                <div class="footer__links--item"></div>
+            </div>
+
+            <div class="footer__contacts">
+                <div class="footer__contacts--item">
+                    <img src="" alt="">
+                    <p>ул. Московская, д 1.</p>
+                </div>   
+                <div class="footer__contacts--item">
+                    <img src="" alt="">
+                    <p>+7 (941) 432-32-11</p>
+                </div>
+                <div class="footer__contacts--item">
+                    <img src="https://fakeimg.pl/30x30" alt="">
+                    <img src="https://fakeimg.pl/30x30" alt="">
+                    <img src="https://fakeimg.pl/30x30" alt="">
+                </div>
+            </div>
+        </footer>
+    </main>
 
 
 </body>
