@@ -34,6 +34,11 @@ a {
   text-decoration: none;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .btn-reset {
   border: none;
   padding: 0;
@@ -268,7 +273,7 @@ section {
 
 .extension__list {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 33px;
 }
 
@@ -343,6 +348,11 @@ section {
   max-width: 379px;
   min-height: 276px;
   border-radius: 14px;
+}
+
+.extension__image {
+  object-fit: none;
+  max-width: none;
 }
 
 /* gellery */
