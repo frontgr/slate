@@ -23,6 +23,12 @@ body {
   padding-right:15px;
 }
 
+.extension__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 }
 
 
