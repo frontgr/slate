@@ -383,6 +383,13 @@ section {
   line-height: 30px;
   font-family: "Graphik-Regular";
   font-weight: 400;
+  
+}
+
+.gallery__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gallery__part1 {
@@ -425,6 +432,7 @@ section {
 
 .partners h3 {
   margin-bottom: 0;
+  font-weight: 400
 }
 
 .partners button {
@@ -500,7 +508,30 @@ section {
   color: white;
 }
 
+.tel a {
+  color: white;
+  transition:  color .3s;
+}
+
+.tel a:hover {
+  color: rgb(28, 80, 224);
+}
+
 .social__media {
   padding: 20px 0;
+}
+
+#footer_item1 a {
+  color: white;
+  text-decoration: none;
+  transition:  color .3s;
+}
+
+#footer_item1 a:hover {
+  color: rgb(28, 80, 224);
+}
+
+#footer_item1 > svg {
+  transform: translateX(-10);
 }
 
