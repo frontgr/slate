@@ -532,6 +532,6 @@ section {
 }
 
 #footer_item1 > svg {
-  transform: translateX(-10);
+  transform: translateX(-4px);
 }
 
