@@ -531,3 +531,7 @@ section {
   color: rgb(28, 80, 224);
 }
 
+#footer_item1 > svg {
+  transform: translateX(-10);
+}
+
