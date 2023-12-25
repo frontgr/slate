@@ -1,10 +1,10 @@
 # Slate
 
-Most calendars are prepared for the team. Slate is for freelancers who want a convenient way to manage their schedule. Deploy you can check [here](slate-8ohg.vercel.app/).
+Most calendars are prepared for the team. Slate is for freelancers who want a convenient way to manage their schedule. Deploy you can check [here](https://slate-8ohg.vercel.app/).
 
 ## Preview of the project
 
-![Preview image](src/assets/preview.webp)
+![Preview image](assets/img/preview.webp)
 Link to Figma layout is [here](https://www.figma.com/file/pPwbl0gxRex1fTmgcOZQMi/Slate?type=design&node-id=0-3519&mode=design&t=yH2GxxgJ7uSbbRV4-0).
 
 
