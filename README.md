@@ -1,5 +1,31 @@
-# slate
-Большинство календарей предназначены для команд. Slate предназначен для фрилансеров, которым нужен удобный способ планировать свой график.
+# Slate
+
+Most calendars are prepared for the team. Slate is for freelancers who want a convenient way to manage their schedule. Deploy you can check [here](https://frontgr.github.io/funhaus/).
+
+## Preview of the project
+
+Link to Figma layout is [here](https://www.figma.com/file/pPwbl0gxRex1fTmgcOZQMi/Slate?type=design&node-id=0-3519&mode=design&t=yH2GxxgJ7uSbbRV4-0).
+
+---
+
+### Technologies Used
+
+1. BEM notation
+2. HTML, CSS
+3. Docker (soon)
 
 
-https://www.figma.com/file/pPwbl0gxRex1fTmgcOZQMi/Slate?type=design&node-id=0-3519&mode=design&t=yH2GxxgJ7uSbbRV4-0
+Slate simple landing page.
+
+---
+
+### Formatting rules
+
+We use Prettier for formatting our text. See more about our configuration [here](https://frontgr.github.io/docs/prettierrc/prettierrc/).
+
+---
+
+### How to run Docker
+
+Soon...
+
