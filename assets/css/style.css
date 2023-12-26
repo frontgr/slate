@@ -14,6 +14,8 @@ html {
   --puprle-btn-bg: #4452fe;
   --dark-bg: #181818;
   --dark-color: #000;
+  --font-family-m: Montserrat-M;
+  --font-family-r: Montserrat-R;
 }
 
 body {
@@ -294,6 +296,7 @@ section {
 }
 
 .extension__title {
+  font-family: 'Ubuntu-R';
   padding: 10px;
 }
 
@@ -360,7 +363,8 @@ section {
   text-align: center;
 }
 .gallery__title {
-  font-size: 34px;
+  font-family: 'Ubuntu-L';
+  font-size: 40px;
 }
 .gallery__img {
   margin: 2em 0;
@@ -421,8 +425,8 @@ section {
 }
 
 .partners h1 {
-  font-size: 2rem;
-  font-weight: 400;
+  font-family: 'Ubuntu-L';
+  font-size: 2.5rem;
 }
 
 .partners h3 {

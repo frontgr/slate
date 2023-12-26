@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Ubuntu-M';
+  src: url('../Ubuntu-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu-R';
+  src: url('../Ubuntu-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Ubuntu-L';
+  src: url('../Ubuntu-Light.ttf') format("truetype");
+}
