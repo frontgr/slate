@@ -470,7 +470,8 @@ section {
 .footer {
   display: flex;
   justify-content: space-around;
-  margin: 3em 0;
+  margin-top: 3em 0;
+  padding: 107px;
   flex-wrap: wrap;
 }
 .footer__links {
@@ -480,6 +481,11 @@ section {
   gap: 2em;
   flex-wrap: wrap;
 }
+
+.footer__links h5 {
+  font-size: 1.3rem;
+}
+
 .footer__links--item {
   width: 200px;
 }
@@ -532,5 +538,9 @@ section {
 
 #footer_item1 > svg {
   transform: translateX(-4px);
+}
+
+#links_last h5 {
+  margin-top: 0;
 }
 
