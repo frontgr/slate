@@ -505,7 +505,8 @@ section {
 }
 
 .footer__links--item p:hover {
-  color: gray;
+  color: rgb(28, 80, 224);
+  transition: .3s;
 }
 
 .footer__links--item a {
