@@ -466,6 +466,11 @@ section {
   font-size: 14px;
 }
 
+.reviews__box--item img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
 /* footer */
 .footer {
   display: flex;
