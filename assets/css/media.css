@@ -70,6 +70,13 @@ body {
 
 }
 
+@media screen and (max-width:644px) {
+  
+  #links_last {
+    margin-top: 34px;
+  }
+}
+
 @media screen and (max-width:560px) {
   
   .hero__wrapper {
@@ -80,6 +87,10 @@ body {
 
   .hero__desc {
     margin-bottom: 57px;
+  }
+
+  #links_last {
+    margin-top: 34px;
   }
 }
 
@@ -94,6 +105,10 @@ body {
   .footer {
     padding-top: 0px;
   }
+
+  #links_last {
+    margin-top: 34px;
+  }
 }
 
 @media screen and (max-width:388px) {
@@ -104,6 +119,10 @@ body {
 
   .footer {
     padding-top: 0px;
+  }
+
+  #links_last {
+    margin-top: 34px;
   }
 
 }
