@@ -91,12 +91,19 @@ body {
   }
 
 
+  .footer {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width:388px) {
 
   .gallery__container h3 {
     width: 80%;
+  }
+
+  .footer {
+    padding-top: 0px;
   }
 
 }
