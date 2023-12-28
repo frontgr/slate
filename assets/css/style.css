@@ -66,6 +66,7 @@ body {
   padding: 13px 46px;
   color: var(--light-text);
   font-size: 17px;
+  font-family: Arial;
   font-weight: 500;
   letter-spacing: 0.2px;
 
@@ -398,6 +399,7 @@ section {
   gap: 33px;
 }
 
+
 .gallery__part2 {
   display: flex;
   justify-content: center;
@@ -494,6 +496,8 @@ section {
 .footer__links--item {
   width: 200px;
 }
+
+
 
 .footer__contacts {
   display: flex;
