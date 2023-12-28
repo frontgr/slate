@@ -34,7 +34,7 @@ docker-compose up --build
 ```
 
 You can read more about Docker [here](https://frontgr.github.io/docs/docker/docker/).
--
+
 ---
 
 Project has [MIT License](https://github.com/frontgr/slate/blob/main/LICENSE).
